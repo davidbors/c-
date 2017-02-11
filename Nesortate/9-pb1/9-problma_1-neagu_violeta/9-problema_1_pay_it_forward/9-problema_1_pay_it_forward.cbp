@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="9-problema_1_pay_it_forward" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/9-problema_1_pay_it_forward" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/9-problema_1_pay_it_forward" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="date4.in" />
+		<Unit filename="main.cpp" />
+		<Unit filename="numar01.in" />
+		<Unit filename="numar01.ok" />
+		<Unit filename="numar02.in" />
+		<Unit filename="numar02.ok" />
+		<Unit filename="numar1.in" />
+		<Unit filename="numar1.ok" />
+		<Unit filename="numar10.in" />
+		<Unit filename="numar10.ok" />
+		<Unit filename="numar2.in" />
+		<Unit filename="numar2.ok" />
+		<Unit filename="numar3.in" />
+		<Unit filename="numar3.ok" />
+		<Unit filename="numar4.in" />
+		<Unit filename="numar4.ok" />
+		<Unit filename="numar5.in" />
+		<Unit filename="numar5.ok" />
+		<Unit filename="numar6.in" />
+		<Unit filename="numar6.ok" />
+		<Unit filename="numar7.in" />
+		<Unit filename="numar7.ok" />
+		<Unit filename="numar8.in" />
+		<Unit filename="numar8.ok" />
+		<Unit filename="numar9.in" />
+		<Unit filename="numar9.ok" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

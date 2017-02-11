@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1486539127 source:d:\programare\c++\oli scl\pb1-08-02-17\main.cpp
+	<iostream>
+	<fstream>
+

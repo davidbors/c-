@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1486139711 source:d:\programare\scl+supl+prg\prega\olimpiada\rezolvari\prega03.02.17(2)\main.cpp
+	<iostream>
+	<fstream>
+	<cmath>
+

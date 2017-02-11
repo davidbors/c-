@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1478876387 source:d:\programare\scl+supl+prg\prega\rezolvari\gigel si nr speciale\main.cpp
+	<iostream>
+	<fstream>
+	<math.h>
+

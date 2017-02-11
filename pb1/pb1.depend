@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1485251785 source:d:\programare\scl+supl+prg\prega\pb1\main.cpp
+	<iostream>
+	<fstream>
+	<cmath>
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1486376575 source:d:\programare\scl+supl+prg\libtest1\main.cpp
+	<iostream>
+	"../davlibr/davlibr.h"
+	"../davlibr/nvectori.h"
+
+1486378738 d:\programare\scl+supl+prg\davlibr\davlibr.h
+
+1486376411 d:\programare\scl+supl+prg\davlibr\nvectori.h
+

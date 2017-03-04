@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1488626024 source:d:\programare\scl+supl+prg\prega\olimpiada\rezolvari\numere prime\main.cpp
+	<fstream>
+	<cmath>
+

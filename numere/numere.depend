@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1487862851 source:d:\programare\scl+supl+prg\prega\olimpiada\rezolvari\numere\main.cpp
+	<iostream>
+	<fstream>
+

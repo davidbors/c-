@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1487696604 source:d:\programare\scl+supl+prg\prega\olimpiada\rezolvari\sarpe\main.cpp
+	<iostream>
+	<fstream>
+

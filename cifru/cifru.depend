@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1487101273 source:d:\programare\scl+supl+prg\prega\olimpiada\rezolvari\cifru\main.cpp
+	<iostream>
+	<fstream>
+	<cmath>
+

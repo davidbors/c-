@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1491551312 source:c:\users\fujitsu\desktop\bkt\main.cpp
+	<iostream>
+	<fstream>
+
+1491572400 source:d:\programare\scl+supl+prg\prega\olimpiada\rezolvari\backtracking\bkt\main.cpp
+	<iostream>
+	<fstream>
+

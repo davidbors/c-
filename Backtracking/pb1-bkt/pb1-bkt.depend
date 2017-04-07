@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1491553773 source:c:\users\fujitsu\desktop\pb1-bkt\main.cpp
+	<iostream>
+	<fstream>
+

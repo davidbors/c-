@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1491573441 source:d:\programare\scl+supl+prg\prega\olimpiada\rezolvari\bkt prufung2\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+

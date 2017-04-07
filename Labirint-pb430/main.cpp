@@ -72,7 +72,7 @@ int main()
             }
 
         }
-
+        if(ok)
         g<<a[y][x]<<" "<<way<<" "<<dir<<'\n';
     }
 

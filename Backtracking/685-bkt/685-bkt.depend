@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1491554946 source:c:\users\fujitsu\desktop\685-bkt\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+

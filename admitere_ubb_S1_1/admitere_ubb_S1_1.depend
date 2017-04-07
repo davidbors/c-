@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1491483217 source:d:\programare\scl+supl+prg\prega\olimpiada\rezolvari\admitere_ubb_s1_1\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

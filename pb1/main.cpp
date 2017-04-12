@@ -1,93 +1,37 @@
-// 2 nr aproape identice(ai) daca au ac nr de cifr si & exista 1 singura poz in cele 2 nr in care cifr sunt distincte si dif absoluta
-//a cifrelor este 1;
-// Un sir de nr nat form o mult de nr aproape identice daca nr din sir sunt distincte 2 cate 2 si oricare 2 nr aflate pe poz consec
-// in sir sunt ai;
-/// date.in --- prima linie n; 2a linie siru; n<=50; sirul e ai sau nu
-/// se afiseaza da / nu
-
+//pe un teren denvlt este o bila pe poz x,y
+//intr-o matrc cu m-lin, n-col si fiecare el repr inaltimea platoului
+//sa se afiseze lungimea celui mai scurt drum pt ca bila sa iasa din matrice
+//iese prin (n,m)
 #include <iostream>
-#include<fstream>
-#include<cmath>
+#include <fstream>
+
 using namespace std;
-int n,v[50];
+
 ifstream f("date.in");
 ofstream g("date.out");
-void citire(int z[100],int x)
-{
-    int i=0;
-    while(x>0 && f>>z[i++])
-        x--;
-}
-void afisare(int z[100],int x)
-{
-    int i=0;
-    while(x>0 && g<<z[i++]<<" ")
-        x--;
-}
-int distincte(int z[100],int x)
-{
-    int i,j;
-    for(i = 0; i<x-1; i++)
-        for(j=i+1; j<x; j++)
-            if(z[i]==z[j])
-                return 0;
-    return 1;
-}
-int nrcif(long int a)
-{
-    int c = 0;
-    while(a)
-    {
-        c++;
-        a /= 10;
-    }
-    return c;
-}
-int ai(int a, int b)
-{
-    int c = 0;
-    if(nrcif(a)==nrcif(b))
-    {
-        while(a)
-        {
-            if(a%10!=b%10)
-            {
-                if(abs(a-b)!=1)
-                    return 0;
-                else
-                    c++;
-            }
-            a /= 10;
-            b /= 10;
-        }
-        if(c!=1)
-            return 0;
-        else
-            return 1;
-    }
-    else
-        return 0;
 
+void lee(int x, int y, int k){
+    a[x][y] = k;
+    k++;
+    if(a[x-1][y]==0 || a[x-1][y]<a[x][y]) lee(x-1,y,k);
+    if(a[x][y+1]==0 || a[x][y+1]<a[x][y]) lee(x,y+1,k);
+    if(a[x+1][y]==0 || a[x+1][y]<a[x][y]) lee(x+1,y,k);
+    if(a[x][y-1]==0 || a[x][y-1]<a[x][y]) lee(x,y-1,k);
 }
-int verificare(int z[100], int x)
-{
-    int i;
-    if(distincte(z,x))
-    {
-        for(i = 0; i < x-1; i++)
-            if(!ai(z[i],z[i+1]))
-                return 0;
-        return 1;
-    }
-    else
-        return 0;
-}
+
 int main()
 {
-    f>>n;
-    citire(v,n);
-    g << (verificare(v,n) ? "DA" : "NU");
-    f.close();
-    g.close();
+    f>>x_str>>y_str>>n>>m;
+    for(int i = 1; i <= n; i++)
+        for(int j = 1; j <= m; j++)
+            f>>a[i][j];
+    for(int i = 0; i <= n+1; i++)
+        a[i][0] = 9999,
+        a[i][m+1] = 9999;
+    for(int j = 0; j <= m+1; j++)
+        a[0][j] = 9999,
+        a[n+1][j] = 9999;
+    lee(x_str, y_str);
+    g<<"nr de pasi necesar este: "<<k;
     return 0;
 }
